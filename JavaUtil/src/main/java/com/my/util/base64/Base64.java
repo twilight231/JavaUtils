@@ -23,8 +23,7 @@ package com.my.util.base64;
  * See COPYING.TXT for details.
  */
 
-import com.gootrip.util.FileHelper;
-import com.gootrip.util.StringHelper;
+import com.my.util.file.FileHelper;
 import gnu.getopt.Getopt;
 import gnu.getopt.LongOpt;
 

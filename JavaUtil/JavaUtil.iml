@@ -48,5 +48,16 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.7.1" level="project" />
+    <orderEntry type="library" name="Maven: pdfbox:pdfbox:0.7.3" level="project" />
+    <orderEntry type="library" name="Maven: org.fontbox:fontbox:0.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jempbox:jempbox:0.2.0" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcmail-jdk14:136" level="project" />
+    <orderEntry type="library" name="Maven: bouncycastle:bcprov-jdk14:136" level="project" />
+    <orderEntry type="library" name="Maven: com.lowagie:itext:2.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bctsp-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk14:1.38" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcmail-jdk14:1.38" level="project" />
   </component>
 </module>
