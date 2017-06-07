@@ -1,11 +1,6 @@
 package com.my.util.database;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.DatabaseMetaData;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Types;
+import java.sql.*;
 
 /**
  * 获取、创建、调用数据库的存储过程
@@ -80,10 +75,38 @@ public class StorageProcedure {
 	    } catch (SQLException e) {
 	    	e.printStackTrace();
 	    } finally {
-	    	OperateDB.closeStatement(cs);
+	    	closeStatement(cs);
 	    }
 	}
-	
+
+	/**
+	 * 关闭Statement
+	 * @param sm
+	 */
+	public static void closeStatement(Statement sm){
+		if (sm != null){
+			try {
+				sm.close();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		}
+	}
+
+	/**
+	 * 关闭连接
+	 * @param con
+	 */
+	public static void closeConnection(Connection con){
+		if (con != null){
+			try {
+				con.close();
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		}
+	}
+
 	public static void main(String[] args) throws ClassNotFoundException,
 			SQLException {
 		String dbName = "studentdb";
@@ -105,7 +128,7 @@ public class StorageProcedure {
 			throw e2;
 		} finally {
 			// 关闭数据库连接
-			OperateDB.closeConnection(con);
+			closeConnection(con);
 		}
 	}
 }
