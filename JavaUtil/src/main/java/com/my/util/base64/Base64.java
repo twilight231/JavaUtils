@@ -58,7 +58,7 @@ import java.util.ResourceBundle;
  * used by the uuencode utility, Macintosh binhex 4.0 [RFC-1741], and
  * the base85 encoding specified as part of Level 2 PostScript, do no
  * share these properties, and thus do not fulfill the portability
- * requirements a binary transport encoding for mail must meet.</p>
+ * requirements a binary transport encoding for email must meet.</p>
  *
  * <p>The encoding process represents 24-bit groups of input bits as output
  * strings of 4 encoded characters.  Proceeding from left to right, a

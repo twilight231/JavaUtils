@@ -8,7 +8,7 @@ package com.my.util.upload;
  *
  */
 
-import com.my.util.pic.ThumbnailGenerator;
+import com.my.util.graphic.ThumbnailGenerator;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
