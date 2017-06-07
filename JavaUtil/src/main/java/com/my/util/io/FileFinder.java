@@ -1,6 +1,6 @@
 package com.my.util.io;
 
-import com.my.util.arrayset.Queue;
+import com.my.util.list.Queue;
 
 import java.io.File;
 import java.util.ArrayList;

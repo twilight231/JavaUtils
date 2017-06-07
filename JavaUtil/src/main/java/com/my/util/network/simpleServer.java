@@ -29,7 +29,7 @@ import java.io.*;
  * @Time 9:45:54 AM
  * @version 1.0
  */
-public class impleServer {
+class impleServer {
 
 	private static ServerSocket serverSocket;
 

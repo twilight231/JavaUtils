@@ -24,6 +24,7 @@ package com.my.util.base64;
  */
 
 import com.my.util.file.FileHelper;
+import com.my.util.string.StringHelper;
 import gnu.getopt.Getopt;
 import gnu.getopt.LongOpt;
 

@@ -85,7 +85,7 @@ public class ConnectDB {
 	public static void main(String[] args) {
 		try {
 			Connection conn = getConnection("MySQL", "127.0.0.1", "root",
-					"root");
+					"123456");
 			if (conn == null) {
 				System.out.println("Connection the database is failled !");
 			} else {

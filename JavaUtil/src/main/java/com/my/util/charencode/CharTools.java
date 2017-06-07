@@ -2,7 +2,7 @@ package com.my.util.charencode;
 import java.io.UnsupportedEncodingException;
 
 /**
-* <p>Title:×Ö·û±àÂë¹¤¾ßÀà </p>
+* <p>Title:å­—ç¬¦ç¼–ç å·¥å…·ç±» </p>
 * <p>Description:  </p>
 * <p>Copyright:  Copyright (c) 2007</p>
 * <p>Company:  </p>
@@ -12,7 +12,7 @@ import java.io.UnsupportedEncodingException;
 public class CharTools {
 
   /**
-   * ×ª»»±àÂë ISO-8859-1µ½GB2312
+   * è½¬æ¢ç¼–ç  ISO-8859-1åˆ°GB2312
    * @param text
    * @return
    */
@@ -28,7 +28,7 @@ public class CharTools {
   }
 
   /**
-   * ×ª»»±àÂë GB2312µ½ISO-8859-1
+   * è½¬æ¢ç¼–ç  GB2312åˆ°ISO-8859-1
    * @param text
    * @return
    */
@@ -43,7 +43,7 @@ public class CharTools {
     return result;
   }
   /**
-   * Utf8URL±àÂë
+   * Utf8URLç¼–ç 
    * @param
    * @return
    */
@@ -76,7 +76,7 @@ public class CharTools {
   }
 
   /**
-   * Utf8URL½âÂë
+   * Utf8URLè§£ç 
    * @param text
    * @return
    */
@@ -105,7 +105,7 @@ public class CharTools {
   }
 
   /**
-   * utf8URL±àÂë×ª×Ö·û
+   * utf8URLç¼–ç è½¬å­—ç¬¦
    * @param text
    * @return
    */
@@ -131,7 +131,7 @@ public class CharTools {
   }
 
   /**
-   * ±àÂëÊÇ·ñÓĞĞ§
+   * ç¼–ç æ˜¯å¦æœ‰æ•ˆ
    * @param text
    * @return
    */
@@ -148,7 +148,7 @@ public class CharTools {
   }
 
   /**
-   * ÅĞ¶ÏÊÇ·ñUtf8Url±àÂë
+   * åˆ¤æ–­æ˜¯å¦Utf8Urlç¼–ç 
    * @param text
    * @return
    */
@@ -162,7 +162,7 @@ public class CharTools {
   }
 
   /**
-   * ²âÊÔ
+   * æµ‹è¯•
    * @param args
    */
   public static void main(String[] args) {
